@@ -17,12 +17,16 @@ Score: 2.95087
 Kaggle Profile: Ayushi_Raj
 
 
+
+
 📂 Dataset
 The dataset consists of sales data for Kaggle-branded stickers, including:
 
 train.csv: Sales data with date, country, store, product, and num_sold.
 test.csv: Data without num_sold, for which predictions were made.
 sample_submission.csv: The required format for submission.
+
+
 
 
 
@@ -41,12 +45,16 @@ One-Hot Encoding: Converted categorical features (country, store, product) into 
 
 
 
+
+
 📈 Model Performance
 The best model was XGBoost, achieving an MAE of 104.01 on the validation set.
 
 Feature Importance:
 rolling_mean and lag_1 were key predictors.
 is_weekend improved the model’s ability to handle seasonality.
+
+
 
 
 📌 Lessons Learned
@@ -56,17 +64,27 @@ is_weekend improved the model’s ability to handle seasonality.
 🔹 Time-series forecasting requires careful handling of date-based trends.
 
 
+
+
 📁 Files in This Repository
 📌 notebook.ipynb → Full Kaggle notebook with data preprocessing, model training, and predictions.
 📌 train.csv & test.csv & sample_submission.csv → Dataset 
 📌 submission.csv → Final predictions file submitted to Kaggle.
 📌 README.md → This file with project details.
 
+
+
+
 💡 Future Improvements
 ✅ Try LSTM/RNN-based models for sequential sales prediction.
 ✅ Explore feature selection techniques to reduce overfitting.
 ✅ Implement stacked ensemble models (e.g., blending XGBoost, LightGBM, and CatBoost).
 ✅ Use time-based cross-validation instead of random splitting.
+
+
+
+
+
 
 🔗 Connect with Me
 💻 GitHub: https://github.com/ayushiraj02

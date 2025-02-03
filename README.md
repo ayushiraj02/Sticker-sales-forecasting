@@ -2,7 +2,10 @@
 🏆 Sticker Sales Forecasting
 
 
-🔗 Competition Link
+🔗 Competition Link -- https://www.kaggle.com/competitions/playground-series-s5e1/data
+
+
+
 🚀 Overview
 This project is my submission for the Kaggle Playground Series - Season 5, Episode 1 competition. The goal was to predict sticker sales in various countries and stores using historical sales data. The evaluation metric used was Mean Absolute Percentage Error (MAPE).
 
